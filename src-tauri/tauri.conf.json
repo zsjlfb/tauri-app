@@ -1,0 +1,63 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "tauri-app",
+    "version": "../package.json"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "window": {
+        "create": true,
+        "close": true,
+        "show": true,
+        "hide": true
+      }
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://github.com/ZSJLFB/tauri-app-test/releases/download/v1.0.1/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUxQjhGMzQyOTQ1NjhBQkQKUldTOWlsYVVRdk80NGMvOXV0TVJjZ1djNkhEaG93dXNzb2ZEMThOeHpMWmlhN2xpRG56UXhVdUcK",
+      "windows": {
+        "installMode": "passive"
+      }
+    },
+    "windows": [
+      {
+        "title": "tauri-app",
+        "width": 800,
+        "height": 600,
+        "center": true,
+        "url": "/",
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.tauri.build",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    }
+  }
+}
