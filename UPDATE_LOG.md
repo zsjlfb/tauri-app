@@ -1,4 +1,7 @@
 # Updater Log
+## v1.0.7
+
+test v1.0.7
 
 ## v1.0.6
 
