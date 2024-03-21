@@ -1,0 +1,35 @@
+{
+  "version": "v1.0.8",
+  "notes": "test v1.0.8",
+  "pub_date": "2024-03-21T07:25:41.453Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOWlsYVVRdk80NFJ1aFZDOHRkT1I3aVhFNTgzcDdSNjFocEkxTzRqYk5HTnR4NE1zQUdRYVQ2YVFBTHNPaldZdGthd1lEQWMyZHJ1aE03ZFdBQUtwT0xueG1zaDFFdWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzExMDA0NDM2CWZpbGU6dGF1cmktYXBwXzEuMC44X3g2NF9lbi1VUy5tc2kuemlwCnEzb1lvdzRvZktOZGFBOGxWSTZvZzhJbEh6T1M3MlFmTDk1K3FmaFZZUTVtem5tUWxxSFNxMnNPM292cFRVTHlvb25rMGZhb0l6VDB6M2tpWFhHSkR3PT0K",
+      "url": "https://github.com/zsjlfb/tauri-app/releases/download/v1.0.8/tauri-app_1.0.8_x64_en-US.msi.zip"
+    },
+    "linux": {
+      "signature": "",
+      "url": ""
+    },
+    "darwin": {
+      "signature": "",
+      "url": ""
+    },
+    "darwin-aarch64": {
+      "signature": "",
+      "url": ""
+    },
+    "darwin-x86_64": {
+      "signature": "",
+      "url": ""
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": ""
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOWlsYVVRdk80NFJ1aFZDOHRkT1I3aVhFNTgzcDdSNjFocEkxTzRqYk5HTnR4NE1zQUdRYVQ2YVFBTHNPaldZdGthd1lEQWMyZHJ1aE03ZFdBQUtwT0xueG1zaDFFdWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzExMDA0NDM2CWZpbGU6dGF1cmktYXBwXzEuMC44X3g2NF9lbi1VUy5tc2kuemlwCnEzb1lvdzRvZktOZGFBOGxWSTZvZzhJbEh6T1M3MlFmTDk1K3FmaFZZUTVtem5tUWxxSFNxMnNPM292cFRVTHlvb25rMGZhb0l6VDB6M2tpWFhHSkR3PT0K",
+      "url": "https://github.com/zsjlfb/tauri-app/releases/download/v1.0.8/tauri-app_1.0.8_x64_en-US.msi.zip"
+    }
+  }
+}
