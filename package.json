@@ -1,11 +1,11 @@
 {
   "name": "tauri-app",
   "private": true,
-  "version": "1.0.8",
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite serve --mode development",
+    "build": "vue-tsc --noEmit && vite build --mode production ",
     "preview": "vite preview",
     "tauri": "tauri",
     "tauri:build": "tauri build",
@@ -24,6 +24,7 @@
     "node-fetch": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^5.0.0",
+    "vite-plugin-conditional-compile": "^1.4.4",
     "vue-tsc": "^1.8.5"
   }
 }

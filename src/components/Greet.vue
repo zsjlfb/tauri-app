@@ -18,11 +18,7 @@ async function greet() {
 let baidu: Promise<WebviewWindow>;
 
 function openBaidu() {
-  for (let i = 0; i < 100; i++) {
-    trace('trace ==》 click openBaidu')
-    info('info ==》 click openBaidu')
-    error('error ==》 click openBaidu')
-  }
+  trace('trace ==》 click openBaidu')
   baidu = windows.createWin(WinType.BAIDU);
   baidu.then(o => {
     o.show();
@@ -40,6 +36,14 @@ const version = ref('')
 app.getVersion().then(ver => {
   version.value = ver
 })
+
+// #v-ifdef PROD
+info('This is production mode.');
+// #v-endif
+
+// #v-ifdef DEV
+info('This is development mode.');
+// #v-endif
 
 </script>
 

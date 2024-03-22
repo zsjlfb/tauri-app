@@ -26,9 +26,9 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://raw.githubusercontent.com/zsjlfb/tauri-app/gh-pages/install.json"
+        "https://github.com/zsjlfb/tauri-app/raw/gh-pages/install1.json"
       ],
-      "dialog": true,
+      "dialog": false,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUxQjhGMzQyOTQ1NjhBQkQKUldTOWlsYVVRdk80NGMvOXV0TVJjZ1djNkhEaG93dXNzb2ZEMThOeHpMWmlhN2xpRG56UXhVdUcK",
       "windows": {
         "installMode": "passive"
@@ -57,7 +57,12 @@
         "icons/128x128@2x.png",
         "icons/icon.icns",
         "icons/icon.ico"
-      ]
+      ],
+      "windows": {
+        "wix": {
+          "language": "zh-CN"
+        }
+      }
     }
   }
 }
